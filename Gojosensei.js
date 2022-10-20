@@ -1631,7 +1631,7 @@ break
             delete vote[m.chat]
             reply('Successfully Deleted The Vote Session In This Group')
 	    }
-            break
+            break 
                case 'الجروب': case 'جروب': {
                 if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
@@ -1747,12 +1747,12 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: '「 رابط الاستقبال 」「📌」◣',
-                                    url: `${sc}`
+                                    url: `${https://chat.whatsapp.com/BZhKkamX01rCbTzlNW1HMC}`
                                 }
                             }, {
                                 urlButton: {
                                     displayText: '「 قناتي 」「📍」◣',
-                                    url: `${myweb}`
+                                    url: `${.}`
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1762,10 +1762,10 @@ break
                             }, {
                                 quickReplyButton: {
                                     displayText: '「 المالك 」「👤」◣',
-                                    id: 'owner'
+                                    id: 'https://api.whatsapp.com/send?phone=+966505433177'
                                 }
                             }]
-                      let txt = `「 غوجو ساتورو موجود 🎉 」\n\n${text}`
+                      let txt = `「 العم موجود من اجلكم 🎉 」\n\n${text}`
                       GojoMdNx.send5ButImg(i, txt, GojoMdNx.user.name, global.thumb, btn)
                     }
                 reply(`「 تم  ✌ 」◣`)
@@ -1781,12 +1781,12 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: '「 رابط الاستقبال 」「📌」◣',
-                                    url: `${sc}`
+                                    url: `${https://chat.whatsapp.com/BZhKkamX01rCbTzlNW1HMC}`
                                 }
                             }, {
                                 urlButton: {
                                     displayText: '「 قناتي 」「📍」◣', 
-                                    url: `${myweb}`
+                                    url: `${.}`
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1796,10 +1796,10 @@ break
                             }, {
                                 quickReplyButton: {
                                     displayText: '「 المالك 」「👤」◣',
-                                    id: 'owner'
+                                    id: 'https://api.whatsapp.com/send?phone=+966505433177'
                                 }
                             }]
-                      let txt = `「 غوجو ساتورو موجود 🎉」\n\n${text}`
+                      let txt = `「 العم موجود من اجلكم 🎉」\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
 		reply('「 تم 🤗 」◣')
@@ -3384,12 +3384,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `┌─❖
 ┌─❖ مـرحبـاً 🤗 」
 └┬❖ 「 ${pushname} 」
-││✑「مـعـك بـوت غـوجـو 👋🏻」◣
-││✑「مـن مـمـلـكـة غولد 🤗」◣
+││✑「مـعـك بـوت غيو 👋🏻」◣
+││✑「مـن نقابة اوشن 🌊 🤗」◣
 │└───────────────┈ ⳹
  「 مـعـلـومـات عـن الـبـوت 」
-│✙「 اسـم الـبـوت 」◣ : 「 غوجو ✨🤞🏻 」◣
-│✙「 رقـم الـمـالـك 」◣ : ${global.owner}
+│✙「 اسـم الـبـوت 」◣ : 「 غيو ✨🤞🏻 」◣
+│✙「 رقـم الـمـالـك 」◣ : ${https://api.whatsapp.com/send?phone=+966505433177}
 │✙「عـدد الـمـسـتـخـدمـيـن」◣ : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
    │✑  「 اضـغـط عـلـى الـخـيـارات 🤗 」◣
@@ -3397,12 +3397,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                              hydratedButtons: [{
                                 urlButton: {
                                     displayText: '「 قناتي 」「📍」◣',
-                                    url: `${myweb}`
+                                    url: `${.}`
                                 }
                             }, {
                             	urlButton: {
                                 displayText: '「 رابط الاستقبال 」「📌」◣',
-                                    url: `${sc}`
+                                    url: `${https://api.whatsapp.com/send?phone=+966505433177}`
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3417,7 +3417,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }, {
                                 quickReplyButton: {
                                     displayText: '「 المالك 」「👤」◣',
-                                    id: `${prefix}owner`
+                                    id: `${https://api.whatsapp.com/send?phone=+966505433177}`
                                 }
                             }]
                         }
@@ -3439,12 +3439,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `
 ┌─❖ مـرحبـاً 🤗 」
 └┬❖ 「 ${pushname} 」
-││✑「مـعـك بـوت غـوجـو 👋🏻」◣
-││✑「مـن مـمـلـكـة غولد 🤗」◣
+││✑「مـعـك بـوت غيو 👋🏻」◣
+││✑「مـن نقابة اوشن 🌊 🤗」◣
 │└───────────────┈ ⳹
  「 مـعـلـومـات عـن الـبـوت 」
-│✙「 اسـم الـبـوت 」◣ : 「 غوجو ✨🤞🏻 」◣
-│✙「 رقـم الـمـالـك 」◣ : ${global.owner}
+│✙「 اسـم الـبـوت 」◣ : 「 غيو ✨🤞🏻 」◣
+│✙「 رقـم الـمـالـك 」◣ : ${https://api.whatsapp.com/send?phone=+966505433177}
 │✙「عـدد الـمـسـتـخـدمـيـن」◣ : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
    │✑  「 اضـغـط عـلـى الـخـيـارات 🤗 」◣
@@ -3452,12 +3452,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '「 قناتي 」「📍」◣',
-                                    url: `${myweb}`
+                                    url: `${https://api.whatsapp.com/send?phone=+966505433177}`
                                 }
                             }, {
                             	urlButton: {
                                 displayText: '「 رابط الاستقبال 」「📌」◣',
-                                    url: `${sc}`
+                                    url: `${https://api.whatsapp.com/send?phone=+966505433177}`
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3472,7 +3472,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }, {
                                 quickReplyButton: {
                                     displayText: '「 المالك 」「👤」◣',
-                                    id: `${prefix}owner`
+                                    id: `${}`
                                 }
                             }]
                         }
@@ -3485,14 +3485,10 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `「 مرحبا 👋🏻  」◣
-		    「 معك بوت غوجو 🤗 」◣
-		    「 افضل بوت عربي 」◣
-
- 「 رابط شرح كيف تصنع بوت عربي طريقة سهله راقب وتعلم. ولاتنسى الاشتراك بالقناة」◣
-		    「https://youtu.be/MBPIx3f-VIA」◣
+		    「 معك بوت غيو 🤗 」◣
+		   」◣
 		    「 اتمنى ان تعملو اشتراك للقناة وتنشروها اذا تقدرو عشان ينتشر المقطع كمان والكل يستفيد وجزاه الله خير الي يشترك 💖🤗」◣                 
- 「 رابط فرع التعليم على البوت」◣
-		    「https://chat.whatsapp.com/Gb62eN2S5yI9mhfdn6Ma4z」◣
+ 「 رابط فرhttps://chat.whatsapp.com/BZhKkamX01rCbTzlNW1HMC://chat.whatsapp.com/Gb62eN2S5yI9mhfdn6Ma4z」◣
 		    「 الي محتاج شروحات ينضم 」◣`,
                     description: `「 اختر قائمة من فضلك 」◣`,
                     buttonText: "「 القائمة 」◣",
