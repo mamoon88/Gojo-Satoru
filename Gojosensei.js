@@ -3487,9 +3487,9 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `「 مرحبا 👋🏻  」◣
 		    「 معك بوت غيو 🤗 」◣
 		   」◣
-		    「 اتمنى ان تعملو اشتراك للقناة وتنشروها اذا تقدرو عشان ينتشر المقطع كمان والكل يستفيد وجزاه الله خير الي يشترك 💖🤗」◣                 
- 「 رابط فرhttps://chat.whatsapp.com/BZhKkamX01rCbTzlNW1HMC://chat.whatsapp.com/Gb62eN2S5yI9mhfdn6Ma4z」◣
-		    「 الي محتاج شروحات ينضم 」◣`,
+		    「 رابط الاستقبال」◣                 
+ 「https://chat.whatsapp.com/BZhKkamX01rCbTzlNW1HMC」◣
+		    「」◣`,
                     description: `「 اختر قائمة من فضلك 」◣`,
                     buttonText: "「 القائمة 」◣",
                     footerText: `「 تحت الصيانة ⚙️」◣`,
@@ -3863,12 +3863,12 @@ case '9807786789678': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '「 قناتي 」「📍」◣',
-                                    url: `${myweb}`
+                                    url: `${.}`
                                 }
                             }, {
                                 quickReplyButton: {
                                     displayText: '「 المالك 」「👤」◣',
-                                    id: `${prefix}owner`
+                                    id: `${https://api.whatsapp.com/send?phone=+966505433177}`
                                 }
                             }]
                         }
